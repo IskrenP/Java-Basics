@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Lekciq1
+{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        double num1 = scanner.nextDouble();
+        if (num1 % 2 == 0){
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
+        }
+    }
+}
+    
